@@ -3,8 +3,6 @@ title: React conceptual introduction
 date: "2019-02-05T03:52:33.219Z"
 ---
 
-I’ve working with react a little bit more than a year now, before that I had experience only with more traditional web development methods like JQuery, PHP, Knockout, etc.
-
 In this article I want to explain the key parts of react, without building a react application, I think concepts are very important to understand why react is good and why it works that way.
 
 ## Architecture flexibility
@@ -21,11 +19,11 @@ This means that you will have to make hard decisions, there are community driven
 
 This flexibility is bounded as explained by Dan Abramov [here](https://overreacted.io/react-as-a-ui-runtime/) by two things:
 
-Stability: a site cannot re structure every element at every moment, all the time
+  - Stability: a site cannot re structure every element at every moment, all the time
 
   - Regularity: every UI element must behave consistently
 
-  - React will do its best if you really need to do one of the above but, it won’t be good.
+React will do it's best if you really want to do one of the above but, it won’t be good.
 
 Having said that, the things that you can build with react are surely big, powerful UI patterns to engage your users and deliver good value.
 
