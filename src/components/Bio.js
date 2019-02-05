@@ -31,11 +31,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> a Telematics engineer...
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+              Written by <a href={`https://twitter.com/${social.twitter}`}><strong>{author}</strong></a> a Telematics engineer...              
             </p>
           </div>
         )
