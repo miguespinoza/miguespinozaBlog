@@ -24,6 +24,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-remark-prismjs',
+      options: {
+        inlineCodeMarker: '÷',
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
