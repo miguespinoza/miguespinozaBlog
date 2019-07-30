@@ -7,7 +7,7 @@ I studied Telematics Engineering at the Instituto Politecnico Nacional in Mexico
 
 It is an interdisciplinary field of study It focuses on Telecommunications and Informatic systems.
 
-  
+
 
 ## Computer Science
 
