@@ -3,7 +3,7 @@ title: Testing with react testing library
 date: "2019-07-30T03:34:50.735Z"
 ---
 
-# Testing with react testing library
+###### This is my interpretation of the official react-testing library documentation
 
 The testing library has a different approach from other testing libraries like enzyme or test utils. It avoids at all cost the use of react implementation details during testing, it forces you to test your component by working directly with the DOM, And it intentionally lacks the support for Shallow testing (you can but is not easy nor recommended).
 
@@ -32,7 +32,7 @@ It does not require any configuration to be used, however there is some consider
 ![](Untitled-c76aec5c-540e-42e0-bbff-415bd62bcc27.png)
 
 - Custom Queries: Generaly this is discouraged but you can. see the documentation Here([https://testing-library.com/docs/react-testing-library/setup#add-custom-queries](https://testing-library.com/docs/react-testing-library/setup#add-custom-queries))
-- 
+
 
 ### API
 
@@ -70,7 +70,7 @@ They all have the objective to extract DOM elements out of the container in a wa
 
 ### Firing Events
 
-The fireEvent function is the recommended way to intereact with the DOM. read more here([https://testing-library.com/docs/dom-testing-library/api-events](https://testing-library.com/docs/dom-testing-library/api-events))
+The fireEvent function is the recommended way to intereact with the DOM. read more ([here](https://testing-library.com/docs/dom-testing-library/api-events))
 
     fireEvent(node: HTMLElement, event: Event);
     fireEvent[eventName](node: HTMLElement, eventProperties: Object);
@@ -78,5 +78,5 @@ The fireEvent function is the recommended way to intereact with the DOM. read mo
 
 ## Cheatsheet
 
-1. DOM: [https://testing-library.com/docs/dom-testing-library/cheatsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet)
-2. react-testing-library: [https://testing-library.com/docs/react-testing-library/cheatsheet](https://testing-library.com/docs/react-testing-library/cheatsheet)
+1. [DOM](https://testing-library.com/docs/dom-testing-library/cheatsheet)
+2. [react-testing-library](https://testing-library.com/docs/react-testing-library/cheatsheet)
